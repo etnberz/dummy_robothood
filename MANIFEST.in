@@ -1,0 +1,2 @@
+include robothood/py.typed
+include robothood/config/log_config.json

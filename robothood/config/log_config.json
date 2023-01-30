@@ -1,0 +1,36 @@
+{
+    "version": 1,
+    "filters": {
+        "robothoodlogfilter": {
+        }
+    },
+    "formatters": {
+        "default": {
+            "format": "%(asctime)s [%(process)d] in %(name)s [%(levelname)s]  %(message)s",
+            "datefmt": "[%Y-%m-%d %H:%M:%S %z]"
+        }
+    },
+    "handlers": {
+        "console": {
+            "class": "logging.StreamHandler",
+            "formatter": "default",
+            "level": "INFO",
+            "filters": ["robothoodlogfilter"]
+        },
+        "file": {
+          "class": "logging.handlers.RotatingFileHandler",
+          "level": "DEBUG",
+          "formatter": "default",
+          "maxBytes": 2000000,
+          "backupCount": 5,
+          "filters": ["robothoodlogfilter"]
+        }
+    },
+    "root": {"level": "INFO",  "handlers": ["console", "file"]},
+    "loggers": {
+        "robothood": {
+            "level": "INFO",
+            "propagate": true
+        }
+    }
+}
