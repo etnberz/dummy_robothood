@@ -4,7 +4,7 @@ on:
   - push
 
 env:
-    ROBOTHOOD_PATH: /home/runner/work/robothood/
+    ROBOTHOOD_PATH: /home/runner/work/dummy_robothood/
     BAPI_KEY: ${{ secrets.BAPI_KEY }}
     BAPI_SECRET: ${{ secrets.BAPI_SECRET }}
     DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
