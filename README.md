@@ -16,6 +16,8 @@ RobotHood is a generous crypto trading bot giving its profits to non-governmenta
 
 <b> /!\ WARNING: THIS IS THE DUMMY VERSION OF ROBOTHOOD IT DOES NOT TRADE ANYTHING.</b>
 
+More information here: https://medium.com/@maxime.caitucoli/a-crypto-trading-bot-for-the-greater-good-1e04cb7bbe54
+
 ## Installation
 
 To make the bot run, you will need to set three environment variables:
@@ -65,4 +67,8 @@ open it with draw.io
 ## Contact Me
 Email: maxime.caitucoli@live.fr
 
+Malt: https://www.malt.fr/profile/maximecaitucoli
+
 LinkedIn: https://www.linkedin.com/in/maxime-caitucoli/
+
+My Website: https://maxime-caitucoli.com
